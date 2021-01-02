@@ -1,4 +1,3 @@
-
 TARGET = mm
 TARGET_LIB = libmm.so
 OBJ_PATH = ./obj
@@ -11,7 +10,7 @@ all: main lib
 	$(CC) $(OBJ_PATH)/main.o -o $(OBJ_PATH)/$(TARGET) -L$(OBJ_PATH) -lmm $(CFLAG) -Wl,-rpath=./
 
 main:
-	#mkdir $(OBJ_PATH)
+	$(shell  mkdir -p $(OBJ_PATH))
 	$(CC) -c main.c -o $(OBJ_PATH)/main.o $(CFLAG)
 
 lib:
@@ -20,6 +19,7 @@ lib:
 clean:
 	rm -rf *.so $(OBJ_PATH)/* $(TARGET) $(TARGET_LIB)
 	rm -rf *.log
+	rm -rf $(OBJ_PATH)
 
 install:
 	cp $(OBJ_PATH)/$(TARGET) $(INSTALL_PTATH)
