@@ -1,0 +1,29 @@
+00010000-00011000 r-xp 00000000 00:28 2752530    /mnt/nfs/mm/mm
+00020000-00021000 r--p 00000000 00:28 2752530    /mnt/nfs/mm/mm
+00021000-01022000 rw-p 00001000 00:28 2752530    /mnt/nfs/mm/mm
+01022000-02022000 rw-p 00000000 00:00 0 
+02ca2000-02cc3000 rw-p 00000000 00:00 0          [heap]
+b49b7000-b4db8000 rw-p 00000000 00:00 0 
+b4db8000-b4ef0000 r-xp 00000000 b3:02 5216       /usr/lib/arm-linux-gnueabihf/libc-2.28.so
+b4ef0000-b4f00000 ---p 00138000 b3:02 5216       /usr/lib/arm-linux-gnueabihf/libc-2.28.so
+b4f00000-b4f02000 r--p 00138000 b3:02 5216       /usr/lib/arm-linux-gnueabihf/libc-2.28.so
+b4f02000-b4f03000 rw-p 0013a000 b3:02 5216       /usr/lib/arm-linux-gnueabihf/libc-2.28.so
+b4f03000-b4f06000 rw-p 00000000 00:00 0 
+b4f06000-b4f07000 r-xp 00000000 00:28 2752531    /mnt/nfs/mm/libmm.so
+b4f07000-b4f16000 ---p 00001000 00:28 2752531    /mnt/nfs/mm/libmm.so
+b4f16000-b4f17000 r--p 00000000 00:28 2752531    /mnt/nfs/mm/libmm.so
+b4f17000-b5f18000 rw-p 00001000 00:28 2752531    /mnt/nfs/mm/libmm.so
+b5f18000-b6f18000 rw-p 00000000 00:00 0 
+b6f18000-b6f1c000 r-xp 00000000 b3:02 5195       /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so
+b6f1c000-b6f2b000 ---p 00004000 b3:02 5195       /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so
+b6f2b000-b6f2c000 r--p 00003000 b3:02 5195       /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so
+b6f2c000-b6f2d000 rw-p 00004000 b3:02 5195       /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so
+b6f2d000-b6f4d000 r-xp 00000000 b3:02 5107       /usr/lib/arm-linux-gnueabihf/ld-2.28.so
+b6f5b000-b6f5d000 rw-p 00000000 00:00 0 
+b6f5d000-b6f5e000 r--p 00020000 b3:02 5107       /usr/lib/arm-linux-gnueabihf/ld-2.28.so
+b6f5e000-b6f5f000 rw-p 00021000 b3:02 5107       /usr/lib/arm-linux-gnueabihf/ld-2.28.so
+bee5a000-bee7b000 rw-p 00000000 00:00 0          [stack]
+bef5b000-bef5c000 r-xp 00000000 00:00 0          [sigpage]
+bef5c000-bef5d000 r--p 00000000 00:00 0          [vvar]
+bef5d000-bef5e000 r-xp 00000000 00:00 0          [vdso]
+ffff0000-ffff1000 r-xp 00000000 00:00 0          [vectors]
